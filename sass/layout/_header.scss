@@ -54,10 +54,11 @@
 
 .site-nav {
   @media screen and (max-width: 767px) {
-    position: absolute;
-    top: 48px;
-    left: 25px;
-    align-items: center;
+    // position: absolute;
+    // top: 48px;
+    // left: 25px;
+    // align-items: center;
+    display: none;
   }
   @media screen and (min-width: 768px) {
     display: flex;
@@ -100,7 +101,7 @@
     &::after {
       content: '';
       position: absolute;
-      top: 44px;
+      top: 30px;
       left: 0;
       display: block;
       width: 100%;
@@ -108,7 +109,7 @@
       background: $accent-color;
       border-radius: 2px;
       @media screen and (min-width: 1200px) {
-        top: 45px;
+        top: 30px;
       }
     }
   }
@@ -116,15 +117,16 @@
 
 .auth-nav {
   @media screen and (max-width: 767px) {
-    position: absolute;
     bottom: 134px;
     left: 25px;
     display: inline-flex;
-    flex-direction: column;
+    flex-direction: inherit;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 14px;
     line-height: 1.16;
     letter-spacing: 0.02em;
+    justify-content: center;
+    align-items: center;
   }
   @media screen and (min-width: 768px) {
     display: inline-flex;
@@ -151,6 +153,7 @@
   @media screen and (max-width: 767px) {
     &:not(:last-child) {
       margin-bottom: 32px;
+      margin-right: 32px;
     }
   }
   @media screen and (min-width: 768px) {
@@ -212,10 +215,6 @@
     color: $accent-color;
   }
   @media screen and (max-width: 767px) {
-    &:hover,
-    &:focus {
-      font-size: 34px;
-      line-height: 1.17;
-    }
+    font-size: 12px;
   }
 }

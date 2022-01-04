@@ -1,5 +1,5 @@
 .footer {
-  background-color: $dark-bg-color;
+  background-color: $accent-color;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -57,19 +57,19 @@
 }
 
 .address-block__link {
-  color: $mail-box-color;
+  color: antiquewhite;
   transition: $transition-color;
   &:hover,
   &:focus {
-    color: $accent-color;
+    color: rgb(247, 248, 165);
   }
 }
 .address-block__map {
-  color: $primary-white-color;
+  color: antiquewhite;
   transition: $transition-color;
   &:hover,
   &:focus {
-    color: $accent-color;
+    color: rgb(247, 248, 165);
   }
 }
 .footer__mail-box {
@@ -83,35 +83,35 @@
   }
 }
 
-.mail-box__label {
-  @media screen and (min-width: 1200px) {
-    margin-right: 12px;
-  }
-}
-.mail-box__feild {
-  width: 100%;
-  min-width: 290px;
-  padding: 15px 16px;
-  font-size: 16px;
-  color: $mail-box-color;
-  background-color: inherit;
-  border: 1px solid $mail-box-border;
-  filter: drop-shadow($mail-box-shadow);
-  border-radius: 4px;
-  margin-bottom: 20px;
-  @media screen and (min-width: 768px) {
-    width: 450px;
-  }
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 0;
-    width: 358px;
-  }
-}
+// .mail-box__label {
+//   @media screen and (min-width: 1200px) {
+//     margin-right: 12px;
+//   }
+// }
+// .mail-box__feild {
+//   width: 100%;
+//   min-width: 290px;
+//   padding: 15px 16px;
+//   font-size: 16px;
+//   color: $mail-box-color;
+//   background-color: inherit;
+//   border: 1px solid $mail-box-border;
+//   filter: drop-shadow($mail-box-shadow);
+//   border-radius: 4px;
+//   margin-bottom: 20px;
+//   @media screen and (min-width: 768px) {
+//     width: 450px;
+//   }
+//   @media screen and (min-width: 1200px) {
+//     margin-bottom: 0;
+//     width: 358px;
+//   }
+// }
 .footer__subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: $primary-white-color;
+  color: antiquewhite;
   margin-bottom: 20px;
 }
