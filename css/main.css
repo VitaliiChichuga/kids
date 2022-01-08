@@ -1099,7 +1099,7 @@ img {
     margin-bottom: 30px;
   }
   .section-jobs .section-jobs__text {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -1112,7 +1112,9 @@ img {
     line-height: 1.14;
     text-transform: uppercase;
     color: #ffffff;
-    background: rgba(47, 48, 58, 0.8);
+    background: linear-gradient(30deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+    -webkit-transform: translateZ(30px);
+    transform: translateZ(30px);
   }
 }
 
